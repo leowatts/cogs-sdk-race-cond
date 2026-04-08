@@ -1,0 +1,13 @@
+{
+  "extends": [
+    "@repo/typescript-config/vite.json"
+  ],
+  "compilerOptions": {
+    "checkJs": true
+  },
+  "exclude": [
+    "dist",
+    "public",
+    "node_modules"
+  ]
+}
